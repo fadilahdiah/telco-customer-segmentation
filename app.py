@@ -15,7 +15,7 @@ from sklearn.preprocessing import StandardScaler
 
 st.set_page_config(page_title="Segmentasi Pelanggan Telco", page_icon="📊", layout="wide")
 
-DATA_PATH = "data/telco_churn.csv"
+DATA_PATH = "WA_Fn-UseC_-Telco-Customer-Churn.csv"
 SERVICE_COLS = ["PhoneService", "MultipleLines", "OnlineSecurity", "OnlineBackup",
                 "DeviceProtection", "TechSupport", "StreamingTV", "StreamingMovies"]
 NUM_FEATURES = {
